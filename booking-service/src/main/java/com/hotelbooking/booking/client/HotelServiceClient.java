@@ -32,3 +32,4 @@ public interface HotelServiceClient {
     @PostMapping("/api/rooms/{id}/release")
     void releaseRoomBlock(@PathVariable Long id);
 }
+

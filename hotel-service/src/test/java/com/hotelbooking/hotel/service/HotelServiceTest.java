@@ -97,3 +97,4 @@ class HotelServiceTest {
         assertThat(result.getName()).isEqualTo("New Hotel");
     }
 }
+

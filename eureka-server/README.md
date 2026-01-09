@@ -112,3 +112,4 @@ mvn clean package
 ### Запуск в IDE
 
 Запустите класс `EurekaServerApplication.java` как Spring Boot приложение.
+

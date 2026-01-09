@@ -18,3 +18,4 @@ public class RoomDto {
     private Boolean available;
     private Integer timesBooked;
 }
+

@@ -54,3 +54,4 @@ public class Booking {
         PENDING, CONFIRMED, CANCELLED
     }
 }
+

@@ -27,3 +27,4 @@ public class RoomDto {
 
     private Integer timesBooked = 0;
 }
+

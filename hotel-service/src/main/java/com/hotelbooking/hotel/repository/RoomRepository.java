@@ -38,3 +38,4 @@ public interface RoomRepository extends JpaRepository<Room, Long> {
     @Query("SELECT COUNT(r) = 0 FROM Room r WHERE r.id = :roomId AND r.available = true")
     boolean isRoomAvailableForBooking(@Param("roomId") Long roomId);
 }
+

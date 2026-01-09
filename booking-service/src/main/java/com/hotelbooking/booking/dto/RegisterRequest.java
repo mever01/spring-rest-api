@@ -23,3 +23,4 @@ public class RegisterRequest {
     @Size(min = 6, message = "Пароль должен быть минимум 6 символов")
     private String password;
 }
+

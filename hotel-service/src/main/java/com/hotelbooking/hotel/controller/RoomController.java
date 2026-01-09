@@ -96,3 +96,4 @@ public class RoomController {
         return ResponseEntity.ok(statistics);
     }
 }
+

@@ -163,3 +163,4 @@ mvn clean package
 ### Запуск в IDE
 
 Запустите класс `ApiGatewayApplication.java` как Spring Boot приложение.
+

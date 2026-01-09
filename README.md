@@ -268,3 +268,4 @@ mvn clean package
 - **ELK Stack** для продвинутого логирования
 - **Spring Cloud Sleuth** для распределенной трассировки
 - **API Gateway rate limiting** для защиты от перегрузок
+

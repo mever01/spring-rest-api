@@ -40,6 +40,7 @@ public class UserService {
     }
 
     // Конструктор для Spring (параметры будут инжектированы)
+    @org.springframework.beans.factory.annotation.Autowired
     public UserService(UserRepository userRepository, UserMapper userMapper, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;

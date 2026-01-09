@@ -76,3 +76,4 @@ public class HotelService {
         hotelRepository.deleteById(id);
     }
 }
+

@@ -22,3 +22,4 @@ public class HotelDto {
     @NotBlank(message = "Адрес отеля обязателен")
     private String address;
 }
+

@@ -18,3 +18,4 @@ public class BookingServiceApplication {
         SpringApplication.run(BookingServiceApplication.class, args);
     }
 }
+

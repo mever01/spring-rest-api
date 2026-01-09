@@ -21,3 +21,4 @@ public class CreateRoomRequest {
     @NotNull(message = "ID отеля обязателен")
     private Long hotelId;
 }
+

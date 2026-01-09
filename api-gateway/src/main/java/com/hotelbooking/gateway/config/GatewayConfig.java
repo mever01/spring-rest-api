@@ -22,10 +22,11 @@ public class GatewayConfig {
             .route("booking-service", r -> r
                 .path("/api/bookings/**", "/api/booking/**", "/api/user/**")
                 .filters(f -> f
+                    .stripPrefix(1) // Удаляем /api префикс
                     .filter(jwtFilter.apply(new JwtAuthenticationFilter.Config())))
                 .uri("lb://booking-service"))
 
-            // Маршруты для Hotel Service
+            // Маршруты для Hotel Service (путь /api/hotels остается, так как контроллер использует /api/hotels)
             .route("hotel-service", r -> r
                 .path("/api/hotels/**", "/api/rooms/**")
                 .filters(f -> f

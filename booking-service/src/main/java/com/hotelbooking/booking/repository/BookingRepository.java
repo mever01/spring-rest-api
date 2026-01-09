@@ -31,3 +31,4 @@ public interface BookingRepository extends JpaRepository<Booking, Long> {
     // Для идемпотентности - проверка существующего запроса
     Optional<Booking> findByRequestId(String requestId);
 }
+

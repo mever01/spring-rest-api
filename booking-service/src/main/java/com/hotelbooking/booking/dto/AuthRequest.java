@@ -20,3 +20,4 @@ public class AuthRequest {
     @NotBlank(message = "Пароль обязателен")
     private String password;
 }
+

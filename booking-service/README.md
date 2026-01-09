@@ -328,3 +328,4 @@ resilience4j:
         failure-rate-threshold: 50
         wait-duration-in-open-state: 10000
 ```
+

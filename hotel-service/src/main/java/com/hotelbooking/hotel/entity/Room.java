@@ -32,3 +32,4 @@ public class Room {
     @Column(name = "times_booked", nullable = false)
     private Integer timesBooked = 0;
 }
+

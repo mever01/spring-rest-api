@@ -72,3 +72,4 @@ public class JwtAuthenticationFilter extends AbstractGatewayFilterFactory<JwtAut
         // Конфигурация фильтра
     }
 }
+

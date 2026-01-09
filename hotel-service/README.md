@@ -245,3 +245,4 @@ curl http://localhost:8081/api/hotels
 # Получить рекомендованные номера
 curl http://localhost:8081/api/rooms/recommend
 ```
+

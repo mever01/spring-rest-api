@@ -39,7 +39,7 @@ public class BookingController {
     /**
      * Получить все бронирования пользователя
      */
-    @GetMapping("s")
+    @GetMapping("/list")
     @Operation(summary = "Получить все бронирования пользователя")
     public ResponseEntity<List<BookingDto>> getUserBookings(Authentication authentication) {
         String username = authentication.getName();
@@ -69,3 +69,4 @@ public class BookingController {
         return ResponseEntity.noContent().build();
     }
 }
+

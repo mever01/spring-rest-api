@@ -20,3 +20,4 @@ public class AuthResponse {
 
     private String role;
 }
+
