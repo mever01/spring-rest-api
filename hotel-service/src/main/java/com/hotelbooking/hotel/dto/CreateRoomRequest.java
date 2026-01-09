@@ -22,3 +22,4 @@ public class CreateRoomRequest {
     private Long hotelId;
 }
 
+

@@ -32,3 +32,4 @@ public class CreateBookingRequest {
     private String requestId; // Для идемпотентности
 }
 
+

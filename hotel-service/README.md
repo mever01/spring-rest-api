@@ -246,3 +246,4 @@ curl http://localhost:8081/api/hotels
 curl http://localhost:8081/api/rooms/recommend
 ```
 
+

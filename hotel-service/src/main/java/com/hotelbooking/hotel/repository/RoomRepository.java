@@ -39,3 +39,4 @@ public interface RoomRepository extends JpaRepository<Room, Long> {
     boolean isRoomAvailableForBooking(@Param("roomId") Long roomId);
 }
 
+

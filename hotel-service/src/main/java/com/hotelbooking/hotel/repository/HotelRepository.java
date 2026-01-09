@@ -11,3 +11,4 @@ import org.springframework.stereotype.Repository;
 public interface HotelRepository extends JpaRepository<Hotel, Long> {
 }
 
+

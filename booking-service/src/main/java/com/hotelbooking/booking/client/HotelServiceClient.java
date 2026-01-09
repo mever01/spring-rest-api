@@ -33,3 +33,4 @@ public interface HotelServiceClient {
     void releaseRoomBlock(@PathVariable Long id);
 }
 
+
